@@ -1,18 +1,17 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-
+import csv
 import time
-
+file=open('./next_link.txt','w')
 repository_url = 'https://github.com/apache/dubbo/commits/3.2'
 driver = webdriver.Chrome()
-
 loop = True
-
 try:
     driver.get(repository_url)
     while loop:
         time.sleep(1)
         print(driver.current_url)
+        file.write(driver.current_url+'\n')
         time.sleep(1)
         if driver.find_element(By.XPATH, '//*[@id="repo-content-pjax-container"]/div/div[4]/div/a') and driver.find_element(By.XPATH, '//*[@id="repo-content-pjax-container"]/div/div[4]/div/a').text == 'Older':
             element = driver.find_element(By.XPATH, '//*[@id="repo-content-pjax-container"]/div/div[4]/div/a')
@@ -24,3 +23,4 @@ try:
             loop = False
 finally:
     driver.quit()
+    file.close()
