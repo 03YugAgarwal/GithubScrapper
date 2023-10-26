@@ -26,8 +26,9 @@ while True:
         c_elements = c_container.findAll('strong')
         c_texts = [element.get_text() for element in c_elements]
         c = "\n".join(c_texts)
-        
-        file2.write(a + "\n" + b + "\n" + c + "\n")
+        d = soup.find('relative-time').get_text()
+        print(b)
+        file2.write(a + "\n" + b + "\n" + c + "\n" + "DATE:"+d + "\n" + "-----------" + "\n")
         
     except requests.exceptions.RequestException as e:
         print(f"Request error for {url}: {e}")
