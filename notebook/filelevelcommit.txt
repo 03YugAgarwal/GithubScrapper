@@ -1,0 +1,87 @@
+docs/upgrade.html
+          121 changes: 91 additions & 30 deletions
+          Oct 13, 2023
+connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java
+          9 changes: 9 additions & 0 deletions
+        Oct 13, 2023
+connect/mirror/src/test/java/org/apache/kafka/connect/mirror/MirrorUtilsTest.java
+          64 changes: 60 additions & 4 deletions
+        Oct 13, 2023
+docs/documentation.html
+          4 changes: 3 additions & 1 deletion
+        Oct 12, 2023
+connect/runtime/src/test/java/org/apache/kafka/connect/storage/MemoryConfigBackingStoreTest.java
+          185 changes: 185 additions & 0 deletions
+        Oct 12, 2023
+streams/src/main/java/org/apache/kafka/streams/kstream/Aggregator.java
+          19 changes: 12 additions & 7 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java
+          107 changes: 62 additions & 45 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java
+          38 changes: 23 additions & 15 deletions
+        Oct 16, 2023
+LICENSE-binary
+          4 changes: 2 additions & 2 deletions
+        Oct 12, 2023
+gradle/dependencies.gradle
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+docs/ops.html
+          82 changes: 75 additions & 7 deletions
+        Oct 17, 2023
+docs/toc.html
+          2 changes: 1 addition & 1 deletion
+        Oct 17, 2023
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java
+          4 changes: 3 additions & 1 deletion
+        Oct 14, 2023
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java
+          4 changes: 3 additions & 1 deletion
+        Oct 14, 2023
+connect/runtime/src/test/java/org/apache/kafka/connect/integration/ConnectWorkerIntegrationTest.java
+          45 changes: 41 additions & 4 deletions
+        Oct 14, 2023
+connect/runtime/src/test/java/org/apache/kafka/connect/util/clusters/EmbeddedConnectCluster.java
+          11 changes: 6 additions & 5 deletions
+        Oct 14, 2023
+docs/connect.html
+          3 changes: 2 additions & 1 deletion
+        Oct 14, 2023
+streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java
+          40 changes: 25 additions & 15 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java
+          6 changes: 3 additions & 3 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/KeyValue.java
+          2 changes: 1 addition & 1 deletion
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java
+          2 changes: 1 addition & 1 deletion
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java
+          8 changes: 4 additions & 4 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java
+          37 changes: 17 additions & 20 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/StreamsMetadata.java
+          4 changes: 2 additions & 2 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java
+          8 changes: 4 additions & 4 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/Topology.java
+          2 changes: 1 addition & 1 deletion
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java
+          2 changes: 1 addition & 1 deletion
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java
+          11 changes: 11 additions & 0 deletions
+        Oct 11, 2023
+streams/src/test/java/org/apache/kafka/streams/integration/RestoreIntegrationTest.java
+          207 changes: 203 additions & 4 deletions
+        Oct 11, 2023
