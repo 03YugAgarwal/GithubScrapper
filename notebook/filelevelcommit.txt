@@ -1,6 +1,7 @@
+
 docs/upgrade.html
           121 changes: 91 additions & 30 deletions
-          Oct 13, 2023
+        Oct 13, 2023
 connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java
           9 changes: 9 additions & 0 deletions
         Oct 13, 2023
@@ -84,4 +85,928 @@ streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java
         Oct 11, 2023
 streams/src/test/java/org/apache/kafka/streams/integration/RestoreIntegrationTest.java
           207 changes: 203 additions & 4 deletions
+        Oct 11, 2023
+storage/src/main/java/org/apache/kafka/storage/internals/log/AbstractIndex.java
+          4 changes: 2 additions & 2 deletions
+        Oct 13, 2023
+core/src/main/scala/kafka/server/metadata/KRaftMetadataCache.scala
+          11 changes: 8 additions & 3 deletions
+        Oct 16, 2023
+core/src/test/scala/integration/kafka/server/FetchFromFollowerIntegrationTest.scala
+          30 changes: 17 additions & 13 deletions
+        Oct 16, 2023
+checkstyle/suppressions.xml
+          2 changes: 1 addition & 1 deletion
+        Oct 13, 2023
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/PrototypeAsyncConsumer.java
+          28 changes: 20 additions & 8 deletions
+        Oct 13, 2023
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/PrototypeAsyncConsumerTest.java
+          20 changes: 20 additions & 0 deletions
+        Oct 13, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java
+          13 changes: 6 additions & 7 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewUntypedDemo.java
+          4 changes: 2 additions & 2 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java
+          8 changes: 4 additions & 4 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/temperature/TemperatureDemo.java
+          20 changes: 10 additions & 10 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java
+          4 changes: 2 additions & 2 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java
+          4 changes: 2 additions & 2 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java
+          7 changes: 2 additions & 5 deletions
+        Oct 14, 2023
+streams/examples/src/test/java/org/apache/kafka/streams/examples/docs/DeveloperGuideTesting.java
+          9 changes: 4 additions & 5 deletions
+        Oct 14, 2023
+core/src/test/scala/unit/kafka/log/remote/RemoteIndexCacheTest.scala
+          133 changes: 112 additions & 21 deletions
+        Oct 16, 2023
+storage/src/main/java/org/apache/kafka/storage/internals/log/RemoteIndexCache.java
+          17 changes: 8 additions & 9 deletions
+        Oct 16, 2023
+clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java
+          12 changes: 12 additions & 0 deletions
+        Oct 16, 2023
+clients/src/main/java/org/apache/kafka/common/record/Records.java
+          8 changes: 8 additions & 0 deletions
+        Oct 16, 2023
+clients/src/main/java/org/apache/kafka/common/utils/Utils.java
+          52 changes: 49 additions & 3 deletions
+        Oct 16, 2023
+clients/src/test/java/org/apache/kafka/common/utils/UtilsTest.java
+          77 changes: 77 additions & 0 deletions
+        Oct 16, 2023
+core/src/main/java/kafka/log/remote/RemoteLogManager.java
+          8 changes: 4 additions & 4 deletions
+        Oct 16, 2023
+checkstyle/import-control.xml
+          1 change: 1 addition & 0 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/raft/KafkaNetworkChannel.scala
+          191 changes: 0 additions & 191 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/raft/RaftManager.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 17, 2023
+bin/kafka-topics.sh
+          2 changes: 1 addition & 1 deletion
+        Oct 17, 2023
+bin/windows/kafka-topics.bat
+          2 changes: 1 addition & 1 deletion
+        Oct 17, 2023
+build.gradle
+          5 changes: 1 addition & 4 deletions
+        Oct 17, 2023
+checkstyle/import-control.xml
+          3 changes: 3 additions & 0 deletions
+        Oct 17, 2023
+core/src/test/scala/unit/kafka/server/FetchRequestTest.scala
+          30 changes: 15 additions & 15 deletions
+        Oct 11, 2023
+build.gradle
+          2 changes: 1 addition & 1 deletion
+        Oct 16, 2023
+docs/ops.html
+          8 changes: 4 additions & 4 deletions
+        Oct 16, 2023
+checkstyle/suppressions.xml
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+core/src/main/scala/kafka/server/BrokerServer.scala
+          4 changes: 3 additions & 1 deletion
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/Group.java
+          16 changes: 15 additions & 1 deletion
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupCoordinatorConfig.java
+          27 changes: 26 additions & 1 deletion
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupCoordinatorShard.java
+          69 changes: 66 additions & 3 deletions
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupMetadataManager.java
+          20 changes: 20 additions & 0 deletions
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/OffsetExpirationCondition.java
+          36 changes: 36 additions & 0 deletions
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/OffsetExpirationConditionImpl.java
+          62 changes: 62 additions & 0 deletions
+        Oct 12, 2023
+core/src/main/scala/kafka/common/UnknownCodecException.scala
+          26 changes: 0 additions & 26 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/AbstractFetcherThread.scala
+          11 changes: 6 additions & 5 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/BrokerLifecycleManager.scala
+          4 changes: 2 additions & 2 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/ClientRequestQuotaManager.scala
+          5 changes: 2 additions & 3 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/ControllerConfigurationValidator.scala
+          10 changes: 5 additions & 5 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/ControllerMutationQuotaManager.scala
+          1 change: 0 additions & 1 deletion
+        Oct 17, 2023
+core/src/main/scala/kafka/server/ControllerRegistrationManager.scala
+          8 changes: 4 additions & 4 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/DelayedFetch.scala
+          6 changes: 4 additions & 2 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/DelayedOperation.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 17, 2023
+core/src/main/scala/kafka/server/DelayedProduce.scala
+          4 changes: 2 additions & 2 deletions
+        Oct 17, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/ReadOnlyTask.java
+          5 changes: 4 additions & 1 deletion
+        Oct 12, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java
+          5 changes: 1 addition & 4 deletions
+        Oct 12, 2023
+streams/src/test/java/org/apache/kafka/streams/processor/internals/ReadOnlyTaskTest.java
+          26 changes: 26 additions & 0 deletions
+        Oct 12, 2023
+streams/src/test/java/org/apache/kafka/streams/processor/internals/TaskManagerTest.java
+          26 changes: 26 additions & 0 deletions
+        Oct 12, 2023
+clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java
+          58 changes: 55 additions & 3 deletions
+        Oct 11, 2023
+core/src/main/scala/kafka/cluster/Partition.scala
+          25 changes: 15 additions & 10 deletions
+        Oct 11, 2023
+core/src/main/scala/kafka/cluster/Replica.scala
+          22 changes: 20 additions & 2 deletions
+        Oct 11, 2023
+core/src/test/scala/unit/kafka/cluster/PartitionTest.scala
+          88 changes: 78 additions & 10 deletions
+        Oct 11, 2023
+core/src/test/scala/unit/kafka/cluster/ReplicaTest.scala
+          59 changes: 56 additions & 3 deletions
+        Oct 11, 2023
+core/src/test/scala/unit/kafka/server/IsrExpirationTest.scala
+          12 changes: 6 additions & 6 deletions
+        Oct 11, 2023
+streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java
+          6 changes: 3 additions & 3 deletions
+        Oct 11, 2023
+tests/kafkatest/tests/client/client_compatibility_features_test.py
+          4 changes: 3 additions & 1 deletion
+        Oct 13, 2023
+tests/kafkatest/tests/client/client_compatibility_produce_consume_test.py
+          3 changes: 2 additions & 1 deletion
+        Oct 13, 2023
+tests/kafkatest/tests/core/compatibility_test_new_broker_test.py
+          4 changes: 3 additions & 1 deletion
+        Oct 13, 2023
+tests/kafkatest/tests/core/downgrade_test.py
+          6 changes: 5 additions & 1 deletion
+        Oct 13, 2023
+tests/kafkatest/tests/core/upgrade_test.py
+          7 changes: 5 additions & 2 deletions
+        Oct 13, 2023
+build.gradle
+          4 changes: 4 additions & 0 deletions
+        Oct 11, 2023
+gradle/dependencies.gradle
+          3 changes: 3 additions & 0 deletions
+        Oct 11, 2023
+gradle/resources/dependencycheck-suppressions.xml
+          27 changes: 27 additions & 0 deletions
+        Oct 11, 2023
+build.gradle
+          18 changes: 6 additions & 12 deletions
+        Oct 12, 2023
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java
+          6 changes: 5 additions & 1 deletion
+        Oct 12, 2023
+clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java
+          3 changes: 2 additions & 1 deletion
+        Oct 12, 2023
+core/src/main/scala/kafka/metrics/LinuxIoMetricsCollector.scala
+          4 changes: 2 additions & 2 deletions
+        Oct 12, 2023
+core/src/main/scala/kafka/server/PartitionMetadataFile.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+generator/src/main/java/org/apache/kafka/message/MessageGenerator.java
+          5 changes: 3 additions & 2 deletions
+        Oct 12, 2023
+gradle/dependencies.gradle
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+gradle/spotbugs-exclude.xml
+          42 changes: 41 additions & 1 deletion
+        Oct 12, 2023
+raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java
+          5 changes: 3 additions & 2 deletions
+        Oct 12, 2023
+server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+metadata/src/main/java/org/apache/kafka/controller/metrics/QuorumControllerMetrics.java
+          4 changes: 2 additions & 2 deletions
+        Oct 16, 2023
+metadata/src/test/java/org/apache/kafka/controller/metrics/QuorumControllerMetricsTest.java
+          16 changes: 16 additions & 0 deletions
+        Oct 16, 2023
+docs/streams/tutorial.html
+          4 changes: 2 additions & 2 deletions
+        Oct 13, 2023
+docs/upgrade.html
+          17 changes: 12 additions & 5 deletions
+        Oct 12, 2023
+metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java
+          5 changes: 3 additions & 2 deletions
+        Oct 12, 2023
+metadata/src/test/java/org/apache/kafka/controller/FeatureControlManagerTest.java
+          3 changes: 1 addition & 2 deletions
+        Oct 12, 2023
+tools/src/test/java/org/apache/kafka/tools/FeatureCommandTest.java
+          3 changes: 1 addition & 2 deletions
+        Oct 12, 2023
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStoreTest.java
+          135 changes: 46 additions & 89 deletions
+        Oct 11, 2023
+docs/upgrade.html
+          121 changes: 91 additions & 30 deletions
+        Oct 13, 2023
+connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java
+          9 changes: 9 additions & 0 deletions
+        Oct 13, 2023
+connect/mirror/src/test/java/org/apache/kafka/connect/mirror/MirrorUtilsTest.java
+          64 changes: 60 additions & 4 deletions
+        Oct 13, 2023
+docs/documentation.html
+          4 changes: 3 additions & 1 deletion
+        Oct 12, 2023
+connect/runtime/src/test/java/org/apache/kafka/connect/storage/MemoryConfigBackingStoreTest.java
+          185 changes: 185 additions & 0 deletions
+        Oct 12, 2023
+streams/src/main/java/org/apache/kafka/streams/kstream/Aggregator.java
+          19 changes: 12 additions & 7 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java
+          107 changes: 62 additions & 45 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java
+          38 changes: 23 additions & 15 deletions
+        Oct 16, 2023
+LICENSE-binary
+          4 changes: 2 additions & 2 deletions
+        Oct 12, 2023
+gradle/dependencies.gradle
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+docs/ops.html
+          82 changes: 75 additions & 7 deletions
+        Oct 17, 2023
+docs/toc.html
+          2 changes: 1 addition & 1 deletion
+        Oct 17, 2023
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java
+          4 changes: 3 additions & 1 deletion
+        Oct 14, 2023
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java
+          4 changes: 3 additions & 1 deletion
+        Oct 14, 2023
+connect/runtime/src/test/java/org/apache/kafka/connect/integration/ConnectWorkerIntegrationTest.java
+          45 changes: 41 additions & 4 deletions
+        Oct 14, 2023
+connect/runtime/src/test/java/org/apache/kafka/connect/util/clusters/EmbeddedConnectCluster.java
+          11 changes: 6 additions & 5 deletions
+        Oct 14, 2023
+docs/connect.html
+          3 changes: 2 additions & 1 deletion
+        Oct 14, 2023
+streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java
+          40 changes: 25 additions & 15 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java
+          6 changes: 3 additions & 3 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/KeyValue.java
+          2 changes: 1 addition & 1 deletion
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java
+          2 changes: 1 addition & 1 deletion
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java
+          8 changes: 4 additions & 4 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java
+          37 changes: 17 additions & 20 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/StreamsMetadata.java
+          4 changes: 2 additions & 2 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java
+          8 changes: 4 additions & 4 deletions
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/Topology.java
+          2 changes: 1 addition & 1 deletion
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java
+          2 changes: 1 addition & 1 deletion
+        Oct 16, 2023
+streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java
+          11 changes: 11 additions & 0 deletions
+        Oct 11, 2023
+streams/src/test/java/org/apache/kafka/streams/integration/RestoreIntegrationTest.java
+          207 changes: 203 additions & 4 deletions
+        Oct 11, 2023
+storage/src/main/java/org/apache/kafka/storage/internals/log/AbstractIndex.java
+          4 changes: 2 additions & 2 deletions
+        Oct 13, 2023
+core/src/main/scala/kafka/server/metadata/KRaftMetadataCache.scala
+          11 changes: 8 additions & 3 deletions
+        Oct 16, 2023
+core/src/test/scala/integration/kafka/server/FetchFromFollowerIntegrationTest.scala
+          30 changes: 17 additions & 13 deletions
+        Oct 16, 2023
+checkstyle/suppressions.xml
+          2 changes: 1 addition & 1 deletion
+        Oct 13, 2023
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/PrototypeAsyncConsumer.java
+          28 changes: 20 additions & 8 deletions
+        Oct 13, 2023
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/PrototypeAsyncConsumerTest.java
+          20 changes: 20 additions & 0 deletions
+        Oct 13, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java
+          13 changes: 6 additions & 7 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewUntypedDemo.java
+          4 changes: 2 additions & 2 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java
+          8 changes: 4 additions & 4 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/temperature/TemperatureDemo.java
+          20 changes: 10 additions & 10 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java
+          4 changes: 2 additions & 2 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java
+          4 changes: 2 additions & 2 deletions
+        Oct 14, 2023
+streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java
+          7 changes: 2 additions & 5 deletions
+        Oct 14, 2023
+streams/examples/src/test/java/org/apache/kafka/streams/examples/docs/DeveloperGuideTesting.java
+          9 changes: 4 additions & 5 deletions
+        Oct 14, 2023
+core/src/test/scala/unit/kafka/log/remote/RemoteIndexCacheTest.scala
+          133 changes: 112 additions & 21 deletions
+        Oct 16, 2023
+storage/src/main/java/org/apache/kafka/storage/internals/log/RemoteIndexCache.java
+          17 changes: 8 additions & 9 deletions
+        Oct 16, 2023
+clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java
+          12 changes: 12 additions & 0 deletions
+        Oct 16, 2023
+clients/src/main/java/org/apache/kafka/common/record/Records.java
+          8 changes: 8 additions & 0 deletions
+        Oct 16, 2023
+clients/src/main/java/org/apache/kafka/common/utils/Utils.java
+          52 changes: 49 additions & 3 deletions
+        Oct 16, 2023
+clients/src/test/java/org/apache/kafka/common/utils/UtilsTest.java
+          77 changes: 77 additions & 0 deletions
+        Oct 16, 2023
+core/src/main/java/kafka/log/remote/RemoteLogManager.java
+          8 changes: 4 additions & 4 deletions
+        Oct 16, 2023
+checkstyle/import-control.xml
+          1 change: 1 addition & 0 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/raft/KafkaNetworkChannel.scala
+          191 changes: 0 additions & 191 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/raft/RaftManager.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 17, 2023
+bin/kafka-topics.sh
+          2 changes: 1 addition & 1 deletion
+        Oct 17, 2023
+bin/windows/kafka-topics.bat
+          2 changes: 1 addition & 1 deletion
+        Oct 17, 2023
+build.gradle
+          5 changes: 1 addition & 4 deletions
+        Oct 17, 2023
+checkstyle/import-control.xml
+          3 changes: 3 additions & 0 deletions
+        Oct 17, 2023
+core/src/test/scala/unit/kafka/server/FetchRequestTest.scala
+          30 changes: 15 additions & 15 deletions
+        Oct 11, 2023
+build.gradle
+          2 changes: 1 addition & 1 deletion
+        Oct 16, 2023
+docs/ops.html
+          8 changes: 4 additions & 4 deletions
+        Oct 16, 2023
+checkstyle/suppressions.xml
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+core/src/main/scala/kafka/server/BrokerServer.scala
+          4 changes: 3 additions & 1 deletion
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/Group.java
+          16 changes: 15 additions & 1 deletion
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupCoordinatorConfig.java
+          27 changes: 26 additions & 1 deletion
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupCoordinatorShard.java
+          69 changes: 66 additions & 3 deletions
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupMetadataManager.java
+          20 changes: 20 additions & 0 deletions
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/OffsetExpirationCondition.java
+          36 changes: 36 additions & 0 deletions
+        Oct 12, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/OffsetExpirationConditionImpl.java
+          62 changes: 62 additions & 0 deletions
+        Oct 12, 2023
+core/src/main/scala/kafka/common/UnknownCodecException.scala
+          26 changes: 0 additions & 26 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/AbstractFetcherThread.scala
+          11 changes: 6 additions & 5 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/BrokerLifecycleManager.scala
+          4 changes: 2 additions & 2 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/ClientRequestQuotaManager.scala
+          5 changes: 2 additions & 3 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/ControllerConfigurationValidator.scala
+          10 changes: 5 additions & 5 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/ControllerMutationQuotaManager.scala
+          1 change: 0 additions & 1 deletion
+        Oct 17, 2023
+core/src/main/scala/kafka/server/ControllerRegistrationManager.scala
+          8 changes: 4 additions & 4 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/DelayedFetch.scala
+          6 changes: 4 additions & 2 deletions
+        Oct 17, 2023
+core/src/main/scala/kafka/server/DelayedOperation.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 17, 2023
+core/src/main/scala/kafka/server/DelayedProduce.scala
+          4 changes: 2 additions & 2 deletions
+        Oct 17, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/ReadOnlyTask.java
+          5 changes: 4 additions & 1 deletion
+        Oct 12, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java
+          5 changes: 1 addition & 4 deletions
+        Oct 12, 2023
+streams/src/test/java/org/apache/kafka/streams/processor/internals/ReadOnlyTaskTest.java
+          26 changes: 26 additions & 0 deletions
+        Oct 12, 2023
+streams/src/test/java/org/apache/kafka/streams/processor/internals/TaskManagerTest.java
+          26 changes: 26 additions & 0 deletions
+        Oct 12, 2023
+clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java
+          58 changes: 55 additions & 3 deletions
+        Oct 11, 2023
+core/src/main/scala/kafka/cluster/Partition.scala
+          25 changes: 15 additions & 10 deletions
+        Oct 11, 2023
+core/src/main/scala/kafka/cluster/Replica.scala
+          22 changes: 20 additions & 2 deletions
+        Oct 11, 2023
+core/src/test/scala/unit/kafka/cluster/PartitionTest.scala
+          88 changes: 78 additions & 10 deletions
+        Oct 11, 2023
+core/src/test/scala/unit/kafka/cluster/ReplicaTest.scala
+          59 changes: 56 additions & 3 deletions
+        Oct 11, 2023
+core/src/test/scala/unit/kafka/server/IsrExpirationTest.scala
+          12 changes: 6 additions & 6 deletions
+        Oct 11, 2023
+streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java
+          6 changes: 3 additions & 3 deletions
+        Oct 11, 2023
+tests/kafkatest/tests/client/client_compatibility_features_test.py
+          4 changes: 3 additions & 1 deletion
+        Oct 13, 2023
+tests/kafkatest/tests/client/client_compatibility_produce_consume_test.py
+          3 changes: 2 additions & 1 deletion
+        Oct 13, 2023
+tests/kafkatest/tests/core/compatibility_test_new_broker_test.py
+          4 changes: 3 additions & 1 deletion
+        Oct 13, 2023
+tests/kafkatest/tests/core/downgrade_test.py
+          6 changes: 5 additions & 1 deletion
+        Oct 13, 2023
+tests/kafkatest/tests/core/upgrade_test.py
+          7 changes: 5 additions & 2 deletions
+        Oct 13, 2023
+build.gradle
+          4 changes: 4 additions & 0 deletions
+        Oct 11, 2023
+gradle/dependencies.gradle
+          3 changes: 3 additions & 0 deletions
+        Oct 11, 2023
+gradle/resources/dependencycheck-suppressions.xml
+          27 changes: 27 additions & 0 deletions
+        Oct 11, 2023
+build.gradle
+          18 changes: 6 additions & 12 deletions
+        Oct 12, 2023
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java
+          6 changes: 5 additions & 1 deletion
+        Oct 12, 2023
+clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java
+          3 changes: 2 additions & 1 deletion
+        Oct 12, 2023
+core/src/main/scala/kafka/metrics/LinuxIoMetricsCollector.scala
+          4 changes: 2 additions & 2 deletions
+        Oct 12, 2023
+core/src/main/scala/kafka/server/PartitionMetadataFile.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+generator/src/main/java/org/apache/kafka/message/MessageGenerator.java
+          5 changes: 3 additions & 2 deletions
+        Oct 12, 2023
+gradle/dependencies.gradle
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+gradle/spotbugs-exclude.xml
+          42 changes: 41 additions & 1 deletion
+        Oct 12, 2023
+raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java
+          5 changes: 3 additions & 2 deletions
+        Oct 12, 2023
+server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java
+          2 changes: 1 addition & 1 deletion
+        Oct 12, 2023
+metadata/src/main/java/org/apache/kafka/controller/metrics/QuorumControllerMetrics.java
+          4 changes: 2 additions & 2 deletions
+        Oct 16, 2023
+metadata/src/test/java/org/apache/kafka/controller/metrics/QuorumControllerMetricsTest.java
+          16 changes: 16 additions & 0 deletions
+        Oct 16, 2023
+docs/streams/tutorial.html
+          4 changes: 2 additions & 2 deletions
+        Oct 13, 2023
+docs/upgrade.html
+          17 changes: 12 additions & 5 deletions
+        Oct 12, 2023
+metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java
+          5 changes: 3 additions & 2 deletions
+        Oct 12, 2023
+metadata/src/test/java/org/apache/kafka/controller/FeatureControlManagerTest.java
+          3 changes: 1 addition & 2 deletions
+        Oct 12, 2023
+tools/src/test/java/org/apache/kafka/tools/FeatureCommandTest.java
+          3 changes: 1 addition & 2 deletions
+        Oct 12, 2023
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStoreTest.java
+          135 changes: 46 additions & 89 deletions
+        Oct 11, 2023
+LICENSE-binary
+          2 changes: 1 addition & 1 deletion
+        Oct 2, 2023
+gradle/dependencies.gradle
+          2 changes: 1 addition & 1 deletion
+        Oct 2, 2023
+build.gradle
+          2 changes: 1 addition & 1 deletion
+        Oct 9, 2023
+gradle.properties
+          3 changes: 3 additions & 0 deletions
+        Oct 9, 2023
+gradle/dependencies.gradle
+          7 changes: 2 additions & 5 deletions
+        Oct 9, 2023
+core/src/main/scala/kafka/log/UnifiedLog.scala
+          55 changes: 24 additions & 31 deletions
+        Oct 4, 2023
+core/src/main/scala/kafka/raft/KafkaMetadataLog.scala
+          6 changes: 3 additions & 3 deletions
+        Oct 4, 2023
+core/src/main/scala/kafka/server/ReplicaManager.scala
+          92 changes: 45 additions & 47 deletions
+        Oct 4, 2023
+core/src/test/scala/other/kafka/StressTestLog.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 4, 2023
+core/src/test/scala/unit/kafka/log/AbstractLogCleanerIntegrationTest.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 4, 2023
+core/src/test/scala/unit/kafka/log/LogCleanerParameterizedIntegrationTest.scala
+          6 changes: 3 additions & 3 deletions
+        Oct 4, 2023
+clients/src/main/java/org/apache/kafka/common/Uuid.java
+          53 changes: 51 additions & 2 deletions
+        Oct 6, 2023
+core/src/main/scala/kafka/log/LogManager.scala
+          37 changes: 37 additions & 0 deletions
+        Oct 6, 2023
+core/src/main/scala/kafka/server/BrokerMetadataCheckpoint.scala
+          30 changes: 21 additions & 9 deletions
+        Oct 6, 2023
+core/src/main/scala/kafka/server/KafkaServer.scala
+          5 changes: 3 additions & 2 deletions
+        Oct 6, 2023
+core/src/main/scala/kafka/tools/StorageTool.scala
+          13 changes: 6 additions & 7 deletions
+        Oct 6, 2023
+core/src/test/scala/kafka/server/BrokerMetadataCheckpointTest.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 6, 2023
+core/src/test/scala/unit/kafka/log/LogManagerTest.scala
+          30 changes: 28 additions & 2 deletions
+        Oct 6, 2023
+core/src/test/scala/unit/kafka/server/KafkaRaftServerTest.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 6, 2023
+core/src/test/scala/unit/kafka/server/ServerGenerateBrokerIdTest.scala
+          5 changes: 2 additions & 3 deletions
+        Oct 6, 2023
+core/src/test/scala/unit/kafka/server/ServerGenerateClusterIdTest.scala
+          5 changes: 2 additions & 3 deletions
+        Oct 6, 2023
+clients/src/main/resources/common/message/ConsumerGroupHeartbeatRequest.json
+          15 changes: 0 additions & 15 deletions
+        Oct 2, 2023
+clients/src/main/resources/common/message/ConsumerGroupHeartbeatResponse.json
+          14 changes: 2 additions & 12 deletions
+        Oct 2, 2023
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/MembershipManagerImplTest.java
+          2 changes: 1 addition & 1 deletion
+        Oct 2, 2023
+clients/src/test/java/org/apache/kafka/common/protocol/ProtoUtilsTest.java
+          1 change: 0 additions & 1 deletion
+        Oct 2, 2023
+clients/src/test/java/org/apache/kafka/common/requests/RequestResponseTest.java
+          3 changes: 1 addition & 2 deletions
+        Oct 2, 2023
+core/src/test/scala/unit/kafka/server/ConsumerGroupHeartbeatRequestTest.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 2, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupMetadataManager.java
+          11 changes: 2 additions & 9 deletions
+        Oct 2, 2023
+build.gradle
+          2 changes: 1 addition & 1 deletion
+        Sep 29, 2023
+checkstyle/suppressions.xml
+          2 changes: 1 addition & 1 deletion
+        Oct 2, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java
+          9 changes: 7 additions & 2 deletions
+        Oct 2, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/tasks/DefaultTaskExecutor.java
+          90 changes: 69 additions & 21 deletions
+        Oct 2, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/tasks/DefaultTaskManager.java
+          66 changes: 54 additions & 12 deletions
+        Oct 2, 2023
+docs/ops.html
+          60 changes: 60 additions & 0 deletions
+        Oct 3, 2023
+LICENSE-binary
+          2 changes: 1 addition & 1 deletion
+        Oct 3, 2023
+gradle/dependencies.gradle
+          2 changes: 1 addition & 1 deletion
+        Oct 3, 2023
+checkstyle/suppressions.xml
+          4 changes: 2 additions & 2 deletions
+        Oct 4, 2023
+clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java
+          32 changes: 18 additions & 14 deletions
+        Oct 4, 2023
+clients/src/test/java/org/apache/kafka/common/requests/DeleteGroupsRequestTest.java
+          49 changes: 49 additions & 0 deletions
+        Oct 4, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/Group.java
+          27 changes: 27 additions & 0 deletions
+        Oct 4, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupCoordinatorService.java
+          125 changes: 88 additions & 37 deletions
+        Oct 4, 2023
+.asf.yaml
+          28 changes: 14 additions & 14 deletions
+        Oct 4, 2023
+core/src/main/scala/kafka/zk/ZkMigrationClient.scala
+          2 changes: 1 addition & 1 deletion
+        Oct 6, 2023
+core/src/test/scala/integration/kafka/zk/ZkMigrationIntegrationTest.scala
+          59 changes: 31 additions & 28 deletions
+        Oct 6, 2023
+core/src/test/scala/unit/kafka/zk/migration/ZkMigrationClientTest.scala
+          44 changes: 24 additions & 20 deletions
+        Oct 6, 2023
+build.gradle
+          1 change: 1 addition & 0 deletions
+        Oct 2, 2023
+checkstyle/import-control.xml
+          4 changes: 4 additions & 0 deletions
+        Oct 2, 2023
+core/src/test/java/kafka/test/ClusterConfig.java
+          5 changes: 5 additions & 0 deletions
+        Oct 2, 2023
+core/src/test/scala/integration/kafka/admin/ReassignPartitionsIntegrationTest.scala
+          740 changes: 0 additions & 740 deletions
+        Oct 2, 2023
+tools/src/main/java/org/apache/kafka/tools/reassign/VerifyAssignmentResult.java
+          2 changes: 1 addition & 1 deletion
+        Oct 2, 2023
+tools/src/test/java/org/apache/kafka/tools/ToolsTestUtils.java
+          4 changes: 4 additions & 0 deletions
+        Oct 2, 2023
+tools/src/test/java/org/apache/kafka/tools/reassign/ReassignPartitionsIntegrationTest.java
+          924 changes: 924 additions & 0 deletions
+        Oct 2, 2023
+clients/src/main/java/org/apache/kafka/common/requests/ConsumerGroupHeartbeatRequest.java
+          5 changes: 5 additions & 0 deletions
+        Oct 4, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupMetadataManager.java
+          16 changes: 8 additions & 8 deletions
+        Oct 4, 2023
+group-coordinator/src/test/java/org/apache/kafka/coordinator/group/GroupMetadataManagerTest.java
+          9 changes: 5 additions & 4 deletions
+        Oct 4, 2023
+docs/ops.html
+          10 changes: 10 additions & 0 deletions
+        Oct 4, 2023
+bin/kafka-leader-election.sh
+          2 changes: 1 addition & 1 deletion
+        Oct 3, 2023
+bin/windows/kafka-leader-election.bat
+          2 changes: 1 addition & 1 deletion
+        Oct 3, 2023
+build.gradle
+          8 changes: 4 additions & 4 deletions
+        Oct 3, 2023
+core/src/main/scala/kafka/admin/LeaderElectionCommand.scala
+          289 changes: 0 additions & 289 deletions
+        Oct 3, 2023
+streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java
+          4 changes: 4 additions & 0 deletions
+        Oct 4, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/ReadOnlyTask.java
+          2 changes: 1 addition & 1 deletion
+        Oct 4, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java
+          3 changes: 1 addition & 2 deletions
+        Oct 4, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java
+          9 changes: 4 additions & 5 deletions
+        Oct 4, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java
+          2 changes: 1 addition & 1 deletion
+        Oct 4, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java
+          57 changes: 45 additions & 12 deletions
+        Oct 4, 2023
+streams/src/test/java/org/apache/kafka/streams/integration/EosV2UpgradeIntegrationTest.java
+          3 changes: 1 addition & 2 deletions
+        Oct 4, 2023
+streams/src/test/java/org/apache/kafka/streams/integration/KTableKTableForeignKeyInnerJoinCustomPartitionerIntegrationTest.java
+          5 changes: 3 additions & 2 deletions
+        Oct 4, 2023
+streams/src/test/java/org/apache/kafka/streams/integration/LagFetchIntegrationTest.java
+          17 changes: 11 additions & 6 deletions
+        Oct 4, 2023
+clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java
+          5 changes: 2 additions & 3 deletions
+        Oct 11, 2023
+clients/src/test/java/org/apache/kafka/clients/admin/KafkaAdminClientTest.java
+          12 changes: 12 additions & 0 deletions
+        Oct 11, 2023
+core/src/test/scala/integration/kafka/api/PlaintextAdminIntegrationTest.scala
+          4 changes: 2 additions & 2 deletions
+        Oct 11, 2023
+checkstyle/suppressions.xml
+          2 changes: 1 addition & 1 deletion
+        Oct 5, 2023
+clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java
+          49 changes: 49 additions & 0 deletions
+        Oct 5, 2023
+clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java
+          55 changes: 39 additions & 16 deletions
+        Oct 5, 2023
+clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java
+          6 changes: 2 additions & 4 deletions
+        Oct 5, 2023
+clients/src/test/java/org/apache/kafka/clients/producer/internals/ProducerBatchTest.java
+          51 changes: 51 additions & 0 deletions
+        Oct 5, 2023
+tests/docker/Dockerfile
+          12 changes: 6 additions & 6 deletions
+        Oct 5, 2023
+tests/kafkatest/version.py
+          15 changes: 8 additions & 7 deletions
+        Oct 5, 2023
+clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java
+          14 changes: 14 additions & 0 deletions
+        Oct 6, 2023
+clients/src/test/java/org/apache/kafka/common/requests/DescribeGroupsRequestTest.java
+          52 changes: 52 additions & 0 deletions
+        Oct 6, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupCoordinatorService.java
+          52 changes: 48 additions & 4 deletions
+        Oct 6, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupCoordinatorShard.java
+          18 changes: 18 additions & 0 deletions
+        Oct 6, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupMetadataManager.java
+          79 changes: 79 additions & 0 deletions
+        Oct 6, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/generic/GenericGroupMember.java
+          20 changes: 20 additions & 0 deletions
+        Oct 6, 2023
+connect/mirror/src/test/java/org/apache/kafka/connect/mirror/MirrorMakerConfigTest.java
+          12 changes: 8 additions & 4 deletions
+        Oct 5, 2023
+gradle/dependencies.gradle
+          2 changes: 2 additions & 0 deletions
+        Oct 7, 2023
+tests/docker/Dockerfile
+          2 changes: 2 additions & 0 deletions
+        Oct 7, 2023
+vagrant/base.sh
+          3 changes: 2 additions & 1 deletion
+        Oct 7, 2023
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupMetadataManager.java
+          6 changes: 1 addition & 5 deletions
+        Oct 2, 2023
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/AssignorSelection.java
+          14 changes: 9 additions & 5 deletions
+        Oct 9, 2023
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/DefaultBackgroundThread.java
+          64 changes: 39 additions & 25 deletions
+        Oct 9, 2023
+streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java
+          2 changes: 1 addition & 1 deletion
+        Oct 2, 2023
+core/src/test/scala/integration/kafka/admin/ListOffsetsIntegrationTest.scala
+          25 changes: 15 additions & 10 deletions
+        Oct 9, 2023
+core/src/test/scala/integration/kafka/api/LogAppendTimeTest.scala
+          11 changes: 7 additions & 4 deletions
+        Oct 9, 2023
+core/src/test/scala/integration/kafka/api/ProducerFailureHandlingTest.scala
+          74 changes: 44 additions & 30 deletions
+        Oct 9, 2023
+core/src/test/scala/unit/kafka/integration/MetricsDuringTopicCreationDeletionTest.scala
+          14 changes: 8 additions & 6 deletions
+        Oct 9, 2023
+core/src/test/scala/unit/kafka/server/FetchRequestMaxBytesTest.scala
+          11 changes: 7 additions & 4 deletions
+        Oct 9, 2023
+clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java
+          2 changes: 1 addition & 1 deletion
+        Sep 29, 2023
+core/src/main/scala/kafka/admin/ConfigCommand.scala
+          13 changes: 11 additions & 2 deletions
+        Oct 10, 2023
+core/src/test/scala/unit/kafka/admin/ConfigCommandTest.scala
+          20 changes: 18 additions & 2 deletions
+        Oct 10, 2023
+core/src/test/scala/unit/kafka/log/remote/RemoteIndexCacheTest.scala
+          275 changes: 258 additions & 17 deletions
+        Oct 11, 2023
+storage/src/main/java/org/apache/kafka/storage/internals/log/RemoteIndexCache.java
+          4 changes: 2 additions & 2 deletions
         Oct 11, 2023
