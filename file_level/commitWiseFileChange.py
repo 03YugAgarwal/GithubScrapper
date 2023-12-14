@@ -1,13 +1,11 @@
 try:
     import requests
     from bs4 import BeautifulSoup
+    import pandas as pd
 except Exception as e:
     print('Modules Missing {}'.format(e))
-
-file1 = open('../data/10entries.txt', 'r')
-
+file1 = open('C:/Users/avson/Desktop/CommitMetrics/repo/GithubScraper/Copy/data/href.txt', 'r')
 aggr = []
-
 while True:
     url = file1.readline().strip()
     if url == "":
@@ -28,7 +26,7 @@ while True:
         addDel1 = []
 
         addDel.pop(0)
-        addDel.pop(0)
+        #addDel.pop(0)
 
         for i in title:
             title1.append(i["title"])
@@ -37,6 +35,7 @@ while True:
 
         data = [title1, addDel1, date]
         aggr.append(data)
+
 
     except requests.exceptions.RequestException as e:
         print(f"Request error for {url}: {e}")
@@ -47,3 +46,14 @@ for i in aggr:
     print(i)
 
 file1.close()
+file2=open('C:/Users/avson/Desktop/CommitMetrics/repo/GithubScraper/Copy/notebook/filelevelcommit.txt','w')
+for i in aggr:
+    try:
+        for idx in range(len(i[0])):
+            file2.write('\n'+i[0][idx]+i[1][idx]+i[2])
+    except Exception as e:
+        print(e)
+file2.close()
+
+
+        
